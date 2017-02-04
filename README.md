@@ -28,32 +28,32 @@ After the *fullstack* completes, run the command below to add dummy data to the 
 npm run seed
 ```
 <br/><br/>
-##Commands##
-###seed###
+##Commands
+###seed
 
 Before getting started, seed the database with dummy data by running:
 ```
 npm run seed
 ```
-###start###
+###start
 
 After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app:
 ```
 npm run start
 ```
-###fullstart###
+###fullstart
 
 To automate updates from back-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disabled. Requires navigating to the localhost and refreshing the page.
 ```
 npm run fullstart
 ```
-###build###
+###build
 
 To build deployment-ready, we use the same script as create-react-app:
 ```
 npm run build
 ```
-###nodemon###
+###nodemon
 
 After this, you can test your back-end code on the built static files:
 ```
@@ -70,4 +70,4 @@ Much of this work was built and taken from the resources below:
 
 Currently, this repo adds *Express* and *Sequelize* to the mix for create-react-app. On the backlog are *Redux* and *SASS*, but some of the links above already have functionality for that.
 
-Last, this project was built at a hackathon at [Full Stack Academy](https://www.fullstackacademy.com/). Development is preliminary. 
+Last, this project was built at a hackathon at [Full Stack Academy](https://www.fullstackacademy.com/). Development is preliminary.
