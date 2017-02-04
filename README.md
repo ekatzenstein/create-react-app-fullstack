@@ -1,4 +1,5 @@
 # create-react-app-fullstack
+![Screenshot](./package_ref/homepage.png "Homepage")
 
 ## Installation
 ```
