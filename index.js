@@ -52,7 +52,7 @@ package.scripts.start = samplePackage.scripts.start;
 package.scripts.fullstart = samplePackage.scripts.fullstart;
 package.scripts.build = samplePackage.scripts.build;
 
-fs.writeFileSync('./package.json',JSON.stringify(package, null, 2))
+fs.writeFileSync(__dirname+'/package.json',JSON.stringify(package, null, 2))
 
 console.log();
 console.log(chalk.green('----------------------------------------'))
