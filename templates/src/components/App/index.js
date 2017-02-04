@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <a href='./api/express-test'>Test if Express is working!</a>
+        <a href='./api/express-test'>Test if Express is working</a>
         <br/>
         <br/>
         <a href='./api/products'>Test if Express + Sequelize working</a>
