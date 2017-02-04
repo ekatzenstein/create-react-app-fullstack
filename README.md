@@ -26,7 +26,7 @@ After the *fullstack* completes, run the command below to add dummy data to the 
 ```
 npm run seed
 ```
-
+<br/><br/>
 ##Commands##
 ###seed###
 
