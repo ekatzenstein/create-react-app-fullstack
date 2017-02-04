@@ -11,7 +11,7 @@ Start by creating your database with PostgreSQL if it doesn't already exist (you
 ```
 create db <my-app>
 ```
-After creating your database, initialize a create-react-app with the same name:
+After creating your database, initialize a create-react-app with the same name (the name match is default functionality, overriding this is straightforward):
 
 ```
 create-react-app <my-app>
