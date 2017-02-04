@@ -7,7 +7,7 @@ npm i -g create-react-app
 npm i -g create-react-app-fullstack
 ```
 ## Getting Started
-Start by creating your database with PostgreSQL if it doesn't already exist (you can do this after running 'fullstack' as well:
+Start by creating your database with PostgreSQL if it doesn't already exist (you can do this after running 'fullstack' as well):
 ```
 create db <my-app>
 ```
