@@ -19,7 +19,7 @@ class App extends Component {
         <a href='./api/express-test'>Test if Express is working</a>
         <br/>
         <br/>
-        <a href='./api/products'>Test if Express + Sequelize working</a>
+        <a href='./api/products'>Test if Express and Sequelize are working</a>
       </div>
     );
   }
