@@ -7,7 +7,7 @@ npm i -g create-react-app
 npm i -g create-react-app-fullstack
 ```
 ## Getting Started
-Start by creating your database with PostgreSQL if it doesn't already exist (you can do this after running 'fullstack' as well):
+This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):
 ```
 create db <my-app>
 ```
@@ -21,9 +21,25 @@ fullstack
 
 After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
 
-Finally, you can seed the database with dummy data by running:
+Before getting started, seed the database with dummy data by running:
 ```
 npm run seed
+```
+After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app:
+```
+npm run start
+```
+To automate updates from back-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disable. Requires navigating to the localhost and refreshing the page.
+```
+npm run fullstart
+```
+To build deployment-ready, we use the same script as create-react-app:
+```
+npm run build
+```
+After this, you can test your back-end code on the built static files:
+```
+nodemon server
 ```
 
 ###References and Props
