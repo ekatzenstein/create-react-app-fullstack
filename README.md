@@ -6,7 +6,7 @@ npm i -g create-react-app
 npm i -g create-react-app-fullstack
 ```
 ## Getting Started
-Start by seeding your database with Postgresql:
+Start by creating your database with PostgreSQL if it doesn't already exist (you can do this after running 'fullstack' as well:
 ```
 create db <my-app>
 ```
@@ -18,7 +18,7 @@ cd my-app
 fullstack
 ```
 
-Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
+After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
 
 Finally, you can seed the database with dummy data by running:
 ```
