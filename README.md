@@ -1,13 +1,16 @@
 # create-react-app-fullstack
+<br/>
 ![Screenshot](./package_ref/homepage.png "Homepage")
 
 ## Installation
+<br/>
 ```
 npm i -g create-react-app
 npm i -g create-react-app-fullstack
 ```
 <br/><br/>
 ## Getting Started
+<br/>
 This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):
 ```
 create db <my-app>
@@ -22,13 +25,15 @@ fullstack
 
 After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
 
-####remember to seed the database!####
+####remember to seed the database!
+<br/>
 After the *fullstack* completes, run the command below to add dummy data to the database.
 ```
 npm run seed
 ```
 <br/><br/>
 ##Commands
+<br/>
 ###seed
 
 Before getting started, seed the database with dummy data by running:
@@ -36,31 +41,32 @@ Before getting started, seed the database with dummy data by running:
 npm run seed
 ```
 ###start
-
+<br/>
 After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app:
 ```
 npm run start
 ```
 ###fullstart
-
+<br/>
 To automate updates from back-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disabled. Requires navigating to the localhost and refreshing the page.
 ```
 npm run fullstart
 ```
 ###build
-
+<br/>
 To build deployment-ready, we use the same script as create-react-app:
 ```
 npm run build
 ```
 ###nodemon
-
+<br/>
 After this, you can test your back-end code on the built static files:
 ```
 nodemon server
 ```
 <br/><br/>
 ##References and Props
+<br/>
 Much of this work was built and taken from the resources below:
 * [create-react-app](https://www.npmjs.com/package/create-react-app)
 * [create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
