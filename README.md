@@ -59,7 +59,7 @@ After this, you can test your back-end code on the built static files:
 ```
 nodemon server
 ```
-
+<br/><br/>
 ##References and Props
 Much of this work was built and taken from the resources below:
 * [create-react-app](https://www.npmjs.com/package/create-react-app)
