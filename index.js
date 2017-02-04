@@ -45,14 +45,14 @@ exec('rsync -r '+path.join(__dirname, 'templates/')+' ./')
 
 const packageString = fs.readFileSync('./package.json',{encoding:'utf8'});
 
-let package = JSON.parse(packageString)
+let pkgJson = JSON.parse(packageString)
 
-package.scripts.seed = samplePackage.scripts.seed;
-package.scripts.start = samplePackage.scripts.start;
-package.scripts.fullstart = samplePackage.scripts.fullstart;
-package.scripts.build = samplePackage.scripts.build;
+pkgJson.scripts.seed = samplePackage.scripts.seed;
+pkgJson.scripts.start = samplePackage.scripts.start;
+pkgJson.scripts.fullstart = samplePackage.scripts.fullstart;
+pkgJson.scripts.build = samplePackage.scripts.build;
 
-fs.writeFileSync(__dirname+'/package.json',JSON.stringify(package, null, 2))
+fs.writeFileSync('./package.json',JSON.stringify(pkgJson, null, 2))
 
 console.log();
 console.log(chalk.green('----------------------------------------'))
