@@ -1,0 +1,34 @@
+{
+  "name": "create-react-app-fullstack",
+  "version": "1.0.0",
+  "description": "Turn create-react-app into a fullstack environment by adding Express and Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatzenstein/create-react-app-fullstack.git"
+  },
+  "bin": {
+    "fullstack": "./index.js"
+  },
+  "keywords": [
+    "react-create-app",
+    "create-react-app",
+    "express",
+    "sequelize",
+    "postgresql",
+  ],
+  "author": "ekatzenstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekatzenstein/create-react-app-fullstack/issues"
+  },
+  "homepage": "https://github.com/ekatzenstein/create-react-app-fullstack",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "ramda": "^0.23.0",
+    "yargs": "^6.6.0"
+  }
+}
