@@ -20,6 +20,7 @@
     "sequelize",
     "postgresql"
   ],
+  "readme": "README.md",
   "author": "ekatzenstein",
   "license": "MIT",
   "bugs": {
