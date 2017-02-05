@@ -63,7 +63,6 @@ console.log('GETTING STARTED')
 console.log();
 console.log(chalk.white("As you would in create-react-app, run ")+chalk.cyan("npm run start")+chalk.white(" to work with automatic front end development. This is connected to the server but does not update when back-end changes are made."))
 console.log();
-console.log();
 console.log(chalk.white("To update with back-end changes, run ")+chalk.cyan("npm run fullstart")+chalk.white(" to make automatic updates to front-end and back-end edits. This method disables hot-reloading, so you'll want to refresh the browser to see updates."))
 console.log();
 console.log(chalk.white("To build a deployment ready version, run ")+chalk.cyan("npm run build")+chalk.white(" just as you would in create-react-app. You can preview the build result using ")+chalk.cyan("nodemon server."))
