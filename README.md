@@ -1,10 +1,6 @@
 # create-react-app-fullstack
 <br/>
 
-<div align="center">
-	<img width="600" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
-</div>
-
 ## Installation
 
 ```
@@ -13,6 +9,10 @@ npm i -g create-react-app-fullstack
 ```
 
 <br/>
+
+<div align="center">
+	<img width="600" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
+</div>
 
 ## Getting Started
 <br/>
