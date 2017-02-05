@@ -23,6 +23,7 @@ After running *fullstack*, confirm that you want to eject and the remaining step
 
 #### remember to seed the database!
 <br/>
+
 After the *fullstack* completes, run the command below to add dummy data to the database: `npm run seed`
 <br/>
 
@@ -36,21 +37,25 @@ Before getting started, seed the database with dummy data by running: `npm run s
 
 ### start
 <br/>
+
 After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app: `npm run start`
 <br/>
 
 ### fullstart
 <br/>
+
 To automate updates from back-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disabled. Requires navigating to the localhost and refreshing the page: `npm run fullstart`
 <br/>
 
 ### build
 <br/>
+
 To build deployment-ready, we use the same script as create-react-app: `npm run build`
 <br/>
 
 ### nodemon
 <br/>
+
 After this, you can test your back-end code on the built static files: `nodemon server`
 <br/>
 
