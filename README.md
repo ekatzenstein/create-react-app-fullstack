@@ -11,7 +11,7 @@ npm i -g create-react-app-fullstack
 
 ## Getting Started
 <br/>
-This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):`create db <my-app>`. After creating your database, initialize a create-react-app with the same name (the name match is default functionality, overriding this is straightforward):
+This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):`create db <my-app>`. After creating your database, initialize a create-react-app with the same name (the name match is default functionality, overriding this is straightforward):<br/>
 
 ```
 create-react-app <my-app>
@@ -24,7 +24,7 @@ After running *fullstack*, confirm that you want to eject and the remaining step
 #### remember to seed the database!
 <br/>
 After the *fullstack* completes, run the command below to add dummy data to the database: `npm run seed`
-<br/><br/>
+<br/>
 
 ## Commands
 <br/>
