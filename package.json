@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-fullstack",
   "version": "1.0.5",
-  "description": "Turn create-react-app into a fullstack environment by adding Express and Sequelize",
+  "description": "Turn create-react-app into a fullstack app by adding Express and Sequelize",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -20,7 +20,7 @@
     "sequelize",
     "postgresql"
   ],
-  "readme": "README.md",
+  "readme": "npm_readme.md",
   "author": "ekatzenstein",
   "license": "MIT",
   "bugs": {
