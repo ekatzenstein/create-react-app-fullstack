@@ -23,7 +23,6 @@ fullstack
 After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
 
 #### remember to seed the database!
-<br/>
 
 After the *fullstack* completes, run the command below to add dummy data to the database: `npm run seed`
 
