@@ -2,12 +2,13 @@
 <br/>
 
 ## Installation
-<br/>
 
 ```
 npm i -g create-react-app
 npm i -g create-react-app-fullstack
 ```
+
+<br/>
 
 ## Getting Started
 <br/>
@@ -24,11 +25,9 @@ After running *fullstack*, confirm that you want to eject and the remaining step
 #### remember to seed the database!
 <br/>
 
-After the *fullstack* completes, run the command below to add dummy data to the database:
+After the *fullstack* completes, run the command below to add dummy data to the database: `npm run seed`
 
-```
-npm run seed
-```
+<br/>
 
 ## Commands
 
