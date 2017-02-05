@@ -20,7 +20,7 @@ This is designed for groud up full-stack development. Start by creating your dat
 
 ```
 create-react-app <my-app>
-cd my-app
+cd <my-app>
 fullstack
 ```
 
