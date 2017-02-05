@@ -2,12 +2,7 @@
 <br/>
 
 <h1 align="center">
-	<br>
-	<br>
-	<img width="360" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
-	<br>
-	<br>
-	<br>
+	<img width="600" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
 </h1>
 
 ## Installation
