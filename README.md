@@ -96,11 +96,12 @@ nodemon server
 ## References and Props
 <br/>
 Much of this work was built and taken from the resources below:
-* [create-react-app](https://www.npmjs.com/package/create-react-app)
-* [create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
-* [custom-react-scripts](https://www.npmjs.com/package/custom-react-scripts)
-* [Using create-react-app with React Router + Express.js]()
-* [How to get "create-react-app" to work with your API]()
+[create-react-app](https://www.npmjs.com/package/create-react-app)
+[create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
+[custom-react-scripts](https://www.npmjs.com/package/custom-react-scripts)
+[Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
+[How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+[Bones](https://github.com/queerviolet/bones)
 
 Currently, this repo adds *Express* and *Sequelize* to the mix for create-react-app. On the backlog are *Redux* and *SASS*, but some of the links above already have functionality for that.
 

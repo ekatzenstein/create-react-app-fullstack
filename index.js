@@ -38,7 +38,17 @@ console.log(chalk.grey('fullstack devDependencies installed'))
 console.log(chalk.grey('----------------------------------------'))
 
 if(fs.existsSync('./src')){
-  exec('rm -r '+'./src');
+  remove_file('./src/index.js');
+  remove_file('./src/index.css');
+  remove_file('./src/App.css');
+  remove_file('./src/App.test.js');
+  remove_file('./src/App.js');
+}
+
+function remove_file(fp){
+  if(fs.existsSync(fp)){
+    fs.unlinkSync(fp);
+  }
 }
 
 exec('rsync -r '+path.join(__dirname, 'templates/')+' ./')
