@@ -32,6 +32,8 @@ fullstack
 
 After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
 
+If the app is already ejected, the first *eject* prompt is bypassed. The second prompt confirms that you want to run *fullstack* on your project. This command will add/overwrite/remove files in your *src*, *db*, *server*, and *scripts* folders. Since you're likely running this function at the beginning of a project, it shouldn't be an issue. But if you're in the middle of development, this prompt is a security net. After accepting the prompt, the project will install dependencies and template files.
+
 #### remember to seed the database!
 
 After the *fullstack* completes, run the command below to add dummy data to the database: `npm run seed`
@@ -96,12 +98,12 @@ nodemon server
 ## References and Props
 <br/>
 Much of this work was built and taken from the resources below:
-[create-react-app](https://www.npmjs.com/package/create-react-app)
-[create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
-[custom-react-scripts](https://www.npmjs.com/package/custom-react-scripts)
-[Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
-[How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
-[Bones](https://github.com/queerviolet/bones)
+* [create-react-app](https://www.npmjs.com/package/create-react-app)
+* [create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
+* [custom-react-scripts](https://www.npmjs.com/package/custom-react-scripts)
+* [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
+* [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [Bones](https://github.com/queerviolet/bones)
 
 Currently, this repo adds *Express* and *Sequelize* to the mix for create-react-app. On the backlog are *Redux* and *SASS*, but some of the links above already have functionality for that.
 
