@@ -30,7 +30,7 @@ cd <my-app>
 fullstack
 ```
 
-After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize. Currently, an eject is required on create-react-app to get it working properly. I'm exploring ways to work around this.
+After running *fullstack*, confirm that you want to eject and the remaining steps will update your app with Express and Sequelize.
 
 If the app is already ejected, the first *eject* prompt is bypassed. The second prompt confirms that you want to run *fullstack* on your project. This command will add/overwrite/remove files in your *src*, *db*, *server*, and *scripts* folders. Since you're likely running this function at the beginning of a project, it shouldn't be an issue. But if you're in the middle of development, this prompt is a security net. After accepting the prompt, the project will install dependencies and template files.
 
