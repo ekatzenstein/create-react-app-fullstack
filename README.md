@@ -98,7 +98,7 @@ nodemon server
 
 ## References and Props
 <br/>
-Much of this work was built and taken from the resources below:
+Much of this work was inspired and built from the resources below:
 
 * [create-react-app](https://www.npmjs.com/package/create-react-app)
 * [create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
