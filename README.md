@@ -6,6 +6,7 @@
 </div>
 
 ## Installation
+<br/>
 
 ```
 npm i -g create-react-app
