@@ -17,7 +17,7 @@ npm i -g create-react-app-fullstack
 
 ## Getting Started
 <br/>
-This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):
+This is designed for groud up full-stack development. Start by creating your database with PostgreSQL (you can do this after running 'fullstack' as well):<br/>
 
 ```
 create db <my-app>
@@ -99,6 +99,7 @@ nodemon server
 ## References and Props
 <br/>
 Much of this work was built and taken from the resources below:
+
 * [create-react-app](https://www.npmjs.com/package/create-react-app)
 * [create-react-app-add-redux](https://www.npmjs.com/package/create-react-app-add-redux)
 * [custom-react-scripts](https://www.npmjs.com/package/custom-react-scripts)
