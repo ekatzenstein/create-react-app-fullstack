@@ -90,7 +90,9 @@ prompt("Initializing fullstack repo. This will overwrite existing files in your 
         console.log();
         console.log('GETTING STARTED')
         console.log();
-        console.log(chalk.white("As you would in create-react-app, run ") + chalk.cyan("npm run start") + chalk.white(" to work with automatic front end development. This is connected to the server but does not update when back-end changes are made."))
+        console.log(chalk.white("The first step is to seed the PostgreSQL database. Do this in the terminal with ") + chalk.cyan("createdb <myappname>") + chalk.white(". Next, seed the database with ") + chalk.cyan("npm run seed.") )
+        console.log();
+        console.log(chalk.white("At this point you're all setup.  As you would in create-react-app, run ") + chalk.cyan("npm run start") + chalk.white(" to work with automatic front end development. This is connected to the server but does not update when back-end changes are made."))
         console.log();
         console.log(chalk.white("To update with back-end changes, run ") + chalk.cyan("npm run fullstart") + chalk.white(" to make automatic updates to front-end and back-end edits. This method disables hot-reloading, so you'll want to refresh the browser to see updates."))
         console.log();
