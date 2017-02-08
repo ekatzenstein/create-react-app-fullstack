@@ -18,7 +18,9 @@
     "create-react-app",
     "express",
     "sequelize",
-    "postgresql"
+    "postgresql",
+    "server",
+    "database"
   ],
   "author": "ekatzenstein",
   "license": "MIT",
