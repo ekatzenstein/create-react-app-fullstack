@@ -10,6 +10,8 @@
 1.1.0 - Eject Prompts <br/>
 1.0.0 - Initial release <br/>
 
+<br/>
+
 ## Installation
 <br/>
 
