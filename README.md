@@ -76,7 +76,7 @@ npm run fullstart
 
 ### backstart
 
-As the project gets larger, you may not want to wait for the 'fullstack' command to rebuild the back-end **and** front-end between updates. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with *nodemon*. This is to be used for back-end updates when 'fullstart' takes too long to rebuild.
+As the project gets larger, the 'fullstack' command to can take time to rebuild the back-end **and** front-end. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with *nodemon*. Use this for back-end updates when 'fullstart' takes too long to rebuild.
 
 ```
 npm run backstart
