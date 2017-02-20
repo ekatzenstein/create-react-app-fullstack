@@ -55,7 +55,7 @@ npm run seed
 
 ### start
 
-After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app:
+After the database is seeded, you should be all set. To enable front-end development with hot-reloading, use the same script as create-react-app. This does not listen to updates on the back-end:
 
 ```
 npm run start
@@ -66,10 +66,20 @@ npm run start
 
 ### fullstart
 
-To automate updates from back-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disabled. Requires navigating to the localhost and refreshing the page:
+To automate updates from back-end and front-end development, you can run the script below. The difference between this script and the one above: hot-reloading is disabled. Requires navigating to the localhost and refreshing the page:
 
 ```
 npm run fullstart
+```
+
+<br/>
+
+### backstart
+
+As the project gets larger, you may not want to wait for the 'fullstack' command to rebuild the back-end **and** front-end between updates. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with *nodemon*. This is to be used for back-end updates when 'fullstart' takes too long to rebuild.
+
+```
+npm run backstart
 ```
 
 

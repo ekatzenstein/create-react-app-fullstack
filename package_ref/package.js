@@ -23,6 +23,7 @@ var samplePackage = {
     "scripts": {
         "start": "node scripts/starter.js",
         "fullstart": "node scripts/starter.js --fullstack",
+        "backstart": "node scripts/starter.js --backend",
         "build": "node scripts/build-fullstack.js",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",

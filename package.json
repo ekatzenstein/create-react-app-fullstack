@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-fullstack",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Turn create-react-app into a fullstack app by adding Express and Sequelize",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "sequelize",
     "postgresql",
     "server",
-    "database"
+    "database",
+    "react"
   ],
   "author": "ekatzenstein",
   "license": "MIT",
