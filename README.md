@@ -6,9 +6,9 @@
 </div>
 
 ## Versions
-V 1.0.0 - Initial release
-V 1.1.0 - Eject Prompts
-V 1.2.0 - Added 'backstart' functionality
+V 1.0.0 - Initial release <br/>
+V 1.1.0 - Eject Prompts <br/>
+V 1.2.0 - Added 'backstart' functionality <br/>
 
 ## Installation
 <br/>
