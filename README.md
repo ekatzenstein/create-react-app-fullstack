@@ -5,6 +5,11 @@
 	<img width="500" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
 </div>
 
+## Versions
+V 1.0.0 - Initial release
+V 1.1.0 - Eject Prompts
+V 1.2.0 - Added 'backstart' functionality
+
 ## Installation
 <br/>
 
