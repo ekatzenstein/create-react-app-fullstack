@@ -5,12 +5,12 @@ const pkg = require('../package.json')
 
 const name = process.env.DATABASE_NAME || pkg.name;
 
-const url = process.env.DATABASE_URL || `postgres://localhost:5432/`;
+const url = process.env.DATABASE_URL || `postgres://localhost:5432/${name}`;
 
 console.log(chalk.yellow(`Opening database connection to ${url}${name}`));
 
 // create the database instance
-const db = module.exports = new Sequelize(url+name, {
+const db = module.exports = new Sequelize(url, {
   logging: debug, // export DEBUG=sql in the environment to get SQL queries
   define: {
     underscored: true,       // use snake_case rather than camelCase column names
