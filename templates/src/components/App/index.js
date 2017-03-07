@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-
+import {Link} from 'react-router';
 import logo from './logo.svg';
 import './style.css';
 
@@ -16,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <a href='./about'>Test React Router</a>
+        <Link to='about'>Test React Router</Link>
         <br/>
         <br/>
         <a href='./api/express-test'>Test if Express is working</a>
