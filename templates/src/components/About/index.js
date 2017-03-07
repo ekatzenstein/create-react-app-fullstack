@@ -10,7 +10,7 @@ export default class About extends Component {
     return (
       <div className={classnames('About', className)} {...props}>
         <h1>
-          About
+          About. React Router working successfully.
         </h1>
       </div>
     );
