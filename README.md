@@ -6,13 +6,13 @@
 </div>
 
 ## Versions
-<h3>1.3.0</h3><br/>
+<h3>1.3.0</h3>
 Switched from "browserHistory" to "hashHistory" for React Router. React Router was conflicting with Express in the dev environment. You can change to browserHistory prior to a build.
-<h3>1.2.0</h3><br/>
+<h3>1.2.0</h3>
 Added 'backstart' functionality <br/>
-<h3>1.1.0</h3><br/>
+<h3>1.1.0</h3>
 Eject Prompts <br/>
-<h3>1.0.0</h3><br/>
+<h3>1.0.0</h3>
 Initial release <br/>
 
 <br/>
