@@ -6,10 +6,14 @@
 </div>
 
 ## Versions
-1.3.0 - Switched from "browserHistory" to "hashHistory" for React Router. React Router was conflicting with Express in the dev environment. You can change to browserHistory prior to a build.
-1.2.0 - Added 'backstart' functionality <br/>
-1.1.0 - Eject Prompts <br/>
-1.0.0 - Initial release <br/>
+<h3>1.3.0</h3><br/>
+Switched from "browserHistory" to "hashHistory" for React Router. React Router was conflicting with Express in the dev environment. You can change to browserHistory prior to a build.
+<h3>1.2.0</h3><br/>
+Added 'backstart' functionality <br/>
+<h3>1.1.0</h3><br/>
+Eject Prompts <br/>
+<h3>1.0.0</h3><br/>
+Initial release <br/>
 
 <br/>
 
