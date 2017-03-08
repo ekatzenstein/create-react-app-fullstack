@@ -88,7 +88,7 @@ npm run fullstart
 
 ### backstart
 
-As the project gets larger, the 'fullstack' command can take time to rebuild the back-end **and** front-end. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with **nodemon**. Use this for back-end updates when 'fullstart' takes too long to rebuild.
+As the project gets larger, the 'fullstack' command can take time to rebuild the back-end **and** front-end. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with **nodemon**. Use this for back-end updates when 'fullstart' takes too long to rebuild. This script runs *npm run build* followed by *nodemon* (below).
 
 ```
 npm run backstart
@@ -109,7 +109,7 @@ npm run build
 <br/>
 
 ### nodemon
-After this, you can test your back-end code on the built static files:
+You can test your back-end code on the built static files. This is the quickest way to test back-end updates if you're not updating the front-end:
 
 ```
 nodemon server
