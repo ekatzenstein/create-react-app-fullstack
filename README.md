@@ -6,9 +6,14 @@
 </div>
 
 ## Versions
-1.2.0 - Added 'backstart' functionality <br/>
-1.1.0 - Eject Prompts <br/>
-1.0.0 - Initial release <br/>
+<h3>1.3.0</h3>
+Switched from "browserHistory" to "hashHistory" for React Router. React Router was conflicting with Express in the dev environment. You can change to browserHistory prior to a build.
+<h3>1.2.0</h3>
+Added 'backstart' functionality <br/>
+<h3>1.1.0</h3>
+Eject Prompts <br/>
+<h3>1.0.0</h3>
+Initial release <br/>
 
 <br/>
 
@@ -83,7 +88,7 @@ npm run fullstart
 
 ### backstart
 
-As the project gets larger, the 'fullstack' command can take time to rebuild the back-end **and** front-end. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with **nodemon**. Use this for back-end updates when 'fullstart' takes too long to rebuild.
+As the project gets larger, the 'fullstack' command can take time to rebuild the back-end **and** front-end. This command listens for back-end updates only.  In the first step, front-end components are built as static files (this happens only once). After this step, the script listens to server updates with **nodemon**. Use this for back-end updates when 'fullstart' takes too long to rebuild. This script simply runs **npm run build** followed by **nodemon** (below).
 
 ```
 npm run backstart
@@ -104,7 +109,7 @@ npm run build
 <br/>
 
 ### nodemon
-After this, you can test your back-end code on the built static files:
+You can test your back-end code on the built static files. This is the quickest way to test back-end updates if you're not updating the front-end:
 
 ```
 nodemon server
