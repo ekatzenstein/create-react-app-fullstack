@@ -1,5 +1,4 @@
 #!/usr/local/bin/node
-
 var path = require('path');
 var fs = require('fs');
 var chalk = require('chalk');
