@@ -6,6 +6,10 @@
 </div>
 
 ## Versions
+<h3>1.5.0</h3>
+Update with create-react-app changes (v 1.3.0), updated to work with new react-router (version 4.1.0), switched back to browserHistory
+<h3>1.4.0</h3>
+Bug fixes
 <h3>1.3.0</h3>
 Switched from "browserHistory" to "hashHistory" for React Router. React Router was conflicting with Express in the dev environment. You can change to browserHistory prior to a build.
 <h3>1.2.0</h3>

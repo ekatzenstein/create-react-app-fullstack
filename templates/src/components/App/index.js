@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import {Link} from 'react-router';
+import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './style.css';
 
@@ -17,11 +17,11 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Link to='about'>Test React Router</Link>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <a href='./api/express-test'>Test if Express is working</a>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <a href='./api/products'>Test if Express and Sequelize are working</a>
       </div>
     );
