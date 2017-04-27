@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-fullstack",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Turn create-react-app into a fullstack app by adding Express and Sequelize",
   "main": "index.js",
   "scripts": {
