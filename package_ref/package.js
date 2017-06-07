@@ -5,19 +5,26 @@ var samplePackage = {
     "devDependencies": {
         "debug": "*",
         "react-scripts": "*",
-        "yargs": "*"
+        "yargs": "*",
+        "nodemon": "*"
     },
     "dependencies": {
+        "axios": "^0.16.2",
         "body-parser": "*",
         "chalk": "*",
         "classnames": "*",
+        "concurrently": "*",
         "express": "*",
         "morgan": "*",
         "nodemon": "*",
         "pg": "*",
         "react": "*",
         "react-dom": "*",
+        "react-redux": "*",
         "react-router-dom": "*",
+        "redux": "*",
+        "redux-logger": "*",
+        "redux-thunk": "*",
         "sequelize": "*"
     },
     "scripts": {
