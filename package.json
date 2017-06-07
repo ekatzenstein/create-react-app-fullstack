@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/ekatzenstein/create-react-app-fullstack",
   "dependencies": {
-    "chalk": "*",
-    "yargs": "*",
-    "react-dev-utils": "*"
+    "chalk": "^1.1.3",
+    "yargs": "^6.6.0",
+    "react-dev-utils": "^0.4.2"
   }
 }
