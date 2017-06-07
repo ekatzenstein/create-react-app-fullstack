@@ -8,8 +8,10 @@
 ## Versions
 <h3>2.0.0</h3>
 
-* Massive updates, removing different start options (backstart, fullstart, etc) and offering fullstack functionality in `npm run start`. Using a 'proxy' instead of appending the server as middleware, the reload times are substantially faster.
+* Substantial updates and new architecture
+* Removed different start options (backstart, fullstart, etc) and offering fullstack functionality in `npm run start`. Using a 'proxy' instead of appending the server as middleware, the reload times are substantially faster.
 * Added [redux](https://www.npmjs.com/package/redux), including [react-redux](https://www.npmjs.com/package/react-redux), [redux-thunk](https://www.npmjs.com/package/redux-thunk), [redux-logger](https://www.npmjs.com/package/redux-logger), and [react-router-redux](https://www.npmjs.com/package/react-router-redux).
+* Added [axios](https://www.npmjs.com/package/axios).
 
 <h3>1.5.0</h3>
 Update with create-react-app changes (v 1.3.0), updated to work with new react-router (version 4.1.0), switched back to browserHistory
