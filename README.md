@@ -9,7 +9,7 @@
 <h3>2.0.0</h3>
 
 * Substantial updates and new architecture
-* Removed different start options (backstart, fullstart, etc) and offering fullstack functionality in `npm run start`. Using a 'proxy' instead of appending the server as middleware, the reload times are substantially faster.
+* Removed different start options (backstart, fullstart, etc).  Fullstack functionality is now present in `npm run start`. Used a 'proxy' instead of middleware to the Webpack Dev Server. Reload times are substantially faster.
 * Added [redux](https://www.npmjs.com/package/redux), including [react-redux](https://www.npmjs.com/package/react-redux), [redux-thunk](https://www.npmjs.com/package/redux-thunk), [redux-logger](https://www.npmjs.com/package/redux-logger), and [react-router-redux](https://www.npmjs.com/package/react-router-redux).
 * Added [axios](https://www.npmjs.com/package/axios).
 
