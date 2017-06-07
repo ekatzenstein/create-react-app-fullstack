@@ -21,10 +21,8 @@ var samplePackage = {
         "sequelize": "*"
     },
     "scripts": {
-        "start": "node scripts/starter.js",
-        "fullstart": "node scripts/starter.js --fullstack",
-        "backstart": "node scripts/starter.js --backend",
-        "build": "node scripts/build-fullstack.js",
+        "start": "concurrently \"node scripts/start.js\" \"nodemon server\"",
+        "build": "node scripts/build.js",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "seed": "node db/seed.js"
