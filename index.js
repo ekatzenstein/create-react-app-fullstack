@@ -80,7 +80,7 @@ prompt("Initializing fullstack repo. This will overwrite existing files in your 
         pkgJson.scripts.build = samplePackage.scripts.build;
 
         const PORT = process.env.PORT || 8000;
-        pkgJson.proxy = PORT;
+        pkgJson.proxy = "http://localhost:"+PORT;
 
         fs.writeFileSync('./package.json', JSON.stringify(pkgJson, null, 2))
 
