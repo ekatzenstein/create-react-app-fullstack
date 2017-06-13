@@ -5,6 +5,16 @@
 	<img width="500" src="https://github.com/ekatzenstein/create-react-app-fullstack/blob/master/homepage.png?raw=true" alt="chalk">
 </div>
 
+## The Stack
+
+* [PostgresSQL](https://www.postgresql.org/)
+* [Sequelize](https://www.npmjs.com/package/sequelize)
+* [Node](https://nodejs.org/en/)/[Express.js](https://expressjs.com/)
+* [React](https://facebook.github.io/react/)
+* [Redux](http://redux.js.org/)
+* [Redux-Router](https://github.com/acdlite/redux-router)
+
+
 ## Versions
 <h3>2.0.0</h3>
 

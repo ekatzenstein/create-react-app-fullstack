@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './routes';
 
+import './index.css';
+
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore } from 'redux';
 import { createLogger } from 'redux-logger';
