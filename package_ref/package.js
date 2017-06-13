@@ -29,8 +29,8 @@ var samplePackage = {
         "sequelize": "*"
     },
     "scripts": {
-        "start": "concurrently \"node scripts/start.js\" \"nodemon server\"",
-        "build": "node scripts/build.js",
+        "start": "concurrently \"react-scripts start\" \"nodemon server\"",
+        "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "seed": "node db/seed.js"

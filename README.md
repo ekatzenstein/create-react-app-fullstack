@@ -16,6 +16,12 @@
 
 
 ## Versions
+
+<h3>3.0.0</h3>
+
+* Removed Eject! Using a proxy server doesn't require eject, so your boilerplate config remains nicely under the hood.
+
+
 <h3>2.0.0</h3>
 
 * Substantial updates and new architecture
@@ -117,7 +123,5 @@ Much of this work was inspired and built from the resources below:
 * [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
 * [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 * [Bones](https://github.com/queerviolet/bones)
-
-Currently, this repo adds *Express* and *Sequelize* to the mix for create-react-app. On the backlog are *Redux* and *SASS*, but some of the links above already have functionality for that.
 
 Last, this project was built at a hackathon at [Full Stack Academy](https://www.fullstackacademy.com/). Development is ongoing.
