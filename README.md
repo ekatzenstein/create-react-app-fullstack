@@ -7,7 +7,7 @@
 
 ## The Stack
 
-* [PostgresSQL](https://www.postgresql.org/)
+* [PostgreSQL](https://www.postgresql.org/)
 * [Sequelize](https://www.npmjs.com/package/sequelize)
 * [Node](https://nodejs.org/en/)/[Express.js](https://expressjs.com/)
 * [React](https://facebook.github.io/react/)
