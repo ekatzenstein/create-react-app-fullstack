@@ -12,7 +12,7 @@
 * [Node](https://nodejs.org/en/)/[Express.js](https://expressjs.com/)
 * [React](https://facebook.github.io/react/)
 * [Redux](http://redux.js.org/)
-* [Redux-Router](https://github.com/acdlite/redux-router)
+* [React-Router](https://github.com/acdlite/react-router)
 
 
 ## Versions
